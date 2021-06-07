@@ -1,0 +1,34 @@
+{% assign extracurs = site.data.data.extracurs %}
+{% if extracurs %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ extracurs.title }}
+  </h2>
+
+  {% if extracurs.intro %}
+  <div class="intro">
+      <p>{{ extracurs.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for activity in extracurs.activities %}
+    <div class="item">
+
+      <span class="project-tagline">
+        {% if activity.link %}
+        <a href="{{ project.link }}" target="_blank">{{ activity.title }}</a>
+        {% else %}
+        {{ activity.title }}
+        {% endif %}
+      </span>
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
