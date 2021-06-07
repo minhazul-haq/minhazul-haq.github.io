@@ -1,0 +1,246 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Mohammad Minhazul Haq
+    tagline: 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mohammadminhazu.haq@mavs.uta.edu
+    phone: +1 682-360-9952
+    location: TX, USA
+    website:  #do not add http://
+    linkedin: minhazul-haq
+    xing: 
+    github: minhazul-haq
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    certificates:
+      - title: "Machine Learning"
+        link: "https://coursera.org/verify/HA8R2JZJRPWU"
+        
+      - title: "Machine Learning Foundations: A Case Study Approach"
+        link: "https://coursera.org/verify/2D99FNGA8NBY"
+
+      - title: "Neural Networks and Deep Learning"
+        link: "https://coursera.org/verify/6XLHZNYYM349"
+        
+      - title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization"
+        link: "https://coursera.org/verify/UH3RW9FNDWLF"
+        
+      - title: "Structuring Machine Learning Projects"
+        link: "https://coursera.org/verify/VUNTYYJAARXS"
+        
+      - title: "Convolutional Neural Networks"
+        link: "https://coursera.org/verify/XQX8BCR34N6C"
+
+    courses:
+      - item: Machine Learning
+        link:
+
+      - item: Neural Networks
+        link:
+
+      - item: Artificial Intelligence
+        link:
+        
+      - item: Algorithms
+        link:
+        
+      - item: Data Structures
+        link:  
+      
+      - item: Database
+        link:  
+        
+      - item: Distributed Systems
+        link:  
+
+      - item: Digital Image Processing
+        link:  
+      
+      - item: Computational Geometry
+        link: 
+      
+      - item: Computer Graphics
+        link: 
+      
+career-profile:
+    title: Summary
+    summary: |
+      I have completed PhD in Computer Science from The University of Texas at Arlington in 2023. My research 
+      interests are in <b>Machine Learning</b>, <b>Computer Vision</b>, <b>Deep Learning</b>, and 
+      <b>Medical Image Analysis</b>. I did my PhD under the supervision of <a href="http://ranger.uta.edu/~huang/" target="_blank">Dr. Junzhou Huang</a>. My research projects include Nuclei/Cell Segmentation, Detection, 
+      Classification, etc.
+      
+      I worked as a Software Engineer for two years at <a href="https://www.therapservices.net/" target="_blank">Therap Services</a>. I completed my Bachelor in Computer Science & Engineering from Bangladesh University of Engineering and Technology (BUET) in 2014.
+      
+education:
+    - degree: PhD in Computer Science
+      university: The University of Texas at Arlington
+      location: TX, USA
+      time: August 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Computer Science & Engineering
+      university: Bangladesh University of Engineering and Technology (BUET)
+      location: Dhaka, Bangladesh
+      time: July 2014
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+          
+skills:
+    title: Skills
+
+    groups:
+      - name: Programming
+        elements: C/C++, Java, Python, MATLAB, Scala, Prolog, Assembly 8086, Linux Shell script
+
+      - name: ML tools
+        elements: PyTorch, TensorFlow, Keras, MatConvNet, SageMaker, TensorBoard, scikit-learn, NumPy, pandas, Matplotlib
+
+      - name: Web
+        elements: PHP, JSP, FTL, JavaScript, HTML, CSS, XSL
+
+      - name: Database
+        elements: MySQL, Oracle, PL/SQL
+
+      - name: Frameworks & API
+        elements: Spring, Servlet, Hibernate, Zend, JUnit, jQuery, Bootstrap, OpenGL
+
+      - name: Tools
+        elements: Git, AWS, Gradle, Oracle SQL Developer, LaTeX, Packet Tracer
+          
+experiences:
+    - role: Graduate Research/Teaching Assistant
+      time: September 2016 - August 2023
+      location: TX, USA
+      company: The University of Texas at Arlington
+      details: |
+        As a Graduate Research Assistant, I work on nuclei/cell segmentation, detection and classification. My research 
+        works focus on developing robust Machine Learning and Deep Learning models for improving the state of the arts. 
+        As a Graduate Teaching Assistant, my responsibilities included conducting classes, creating assignments, grading 
+        exams and assignments, exam proctoring, and helping students with their assignments and codes.
+
+    - role: Software Engineer
+      time: August 2014 - June 2016
+      location: Dhaka, Bangladesh
+      company: Therap Services LLC
+      details: |
+        Worked on developing new features and enhancing functionality of existing modules, proper integration 
+        of third-party software, solving critical issues, fixing bugs, code refactoring, code reviewing, and 
+        doing research on user authentication and access control. Technologies include Java, Oracle, Spring Framework, 
+        Servlet, JSP, FTL, JavaScript, etc.
+
+projects:
+    title: Projects
+    intro: >
+    assignments:
+      - title: Domain Adaptation for Cell Segmentation
+        tagline: "A semantic segmentation model implemented in Python, PyTorch and Keras. Adversarial learning was 
+        applied due to the lack of annotations."
+                
+      - title: Transformers for Cell Segmentation
+        tagline: "Visual Transformer (ViT) based semantic segmentation framework implemented in Python and PyTorch.
+        Self-supervised learning is used to learn the quantity of cells, which in turn leads to better segmentation performances."
+
+      - title: Sub-type Cell Segmentation
+        tagline: "Simultaneous cell/nuclei segmentation and classification framework implemented in Python and PyTorch.
+        Instance segmentation, fine-grained classification and self-supervised learning techniques were applied."
+
+      - title: Face Recognition with Deep Convolutional Neural Network
+        tagline: "An implementation of Deep CNN model in which FaceNet was used as feature extractor. The model was written 
+        in Python and TensorFlow."
+
+      - title: Cell Detection and Classification with Convolutional Neural Network
+        tagline: "Simultaneous cell detection and classification framework implemented in MATLAB and MatConvNet."
+
+      - title: Deep Neural Network for Image Classification
+        tagline: "A deep L-layer image classifier implemented in Python. NumPy, Matplotlib, PIL and SciPy packages were used."
+
+      - title: Traffic Crash and Driver Distractions Classification
+        tagline: "A crash-severity predictive model using Logistic Regression and Decision Tree algorithm. The model can 
+        also classify if a driver is distracted or not. The model was implemented in Python using Pandas and NumPy packages."
+
+      - title: Face Recognition with Kernel Support Vector Machine
+        tagline: "This framework was written in MATLAB. Principal Component Analysis and Linear Discriminant Analysis 
+        were applied for dimensionality reduction. Polynomial kernel with degree 2 was chosen as the kernel. Linear SVM and 
+        K-NN algorithm were also implemented for performance comparisons."
+
+      - title: Altered Fingerprint Matching
+        tagline: "An altered/obfuscated fingerprint matching framework using Support Vector Machine with radial basis kernel, 
+        and K-nearest neighbor algorithm. Model was implemented with MATLAB and libSVM library. NBIS was used for extracting 
+        features from fingerprint images."
+
+      - title: Text article Classification with Bayesian Learning
+        tagline: "An implementation of Naive Bayes classifier for text documents classification. The model was written in Java."
+
+      - title: An N-node Distributed System
+        tagline: "Implementation of Berkeley’s algorithm for logical clock synchronization and Vector Clock algorithm for 
+        totally ordered multicasting. Project was built in Java."
+
+      - title: Bd-Bay System Design
+        tagline: "System design for an online payment-on-delivery system using Use-Case diagram, Class diagram, Collaboration diagram, Sequence diagram and State-chart diagram."
+
+publications:
+    title: Publications
+    intro: |
+    papers:
+      - title: "NuSegDA: Domain Adaptation for Nuclei Segmentation"
+        authors: Mohammad Minhazul Haq, Hehuan Ma, Junzhou Huang
+        conference: Frontiers in Big Data - Medicine and Public Health, Volume 6, February 2023
+    
+      - title: "Self-Supervised Pre-Training for Nuclei Segmentation"
+        authors: Mohammad Minhazul Haq, Junzhou Huang
+        conference: Medical Image Computing & Computer Assisted Intervention (MICCAI), 2022
+
+      - title: "Adversarial Domain Adaptation for Cell Segmentation"
+        authors: Mohammad Minhazul Haq, Junzhou Huang
+        conference: Medical Imaging with Deep Learning (MIDL), 2020
+
+      - title: "Graph Attention Multi-instance Learning for Accurate Colorectal Cancer Staging"
+        authors: Ashwin Raju, Jiawen Yao, Mohammad Minhazul Haq, Jitendra Jonnagaddala, Junzhou Huang
+        conference: Medical Image Computing & Computer Assisted Intervention (MICCAI), 2020
+
+extracurs:
+    title: Extra-curricular Activities
+    intro: >
+    activities:
+      - title: Reviewer for International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2022
+      
+      - title: Reviewer for International Conference on Pattern Recognition (ICPR) 2022
+
+      - title: Problem Solver at Leetcode and UVa Online Judge
+        
+      - title: Participant, Kaggle Data Science Bowl 2017
+        
+      - title: Volunteer & Code Reviewer, Java Fest 2014, Bangladesh
+
+      - title: Contestant, Weekly Programming Contest 2009-2014, BUET
+
+footer: >
+    Updated on September 22, 2023

@@ -1,0 +1,22 @@
+{% assign courses = site.data.data.sidebar.courses %}
+{% if courses %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    Coursework
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for course in courses %}
+
+      {% if course.link %}
+      <li><a href="{{ course.link }}">{{ course.item }}</a></li>
+      {% else %}
+      <li>{{ course.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
